@@ -69,12 +69,14 @@ results = {
 for model, acc in results.items():
     print(f"{model}: {acc}")
 
+#Feature important scores
 importances = rf_model.feature_importances_
 features = X.columns
 plt.barh(features,importances)
 plt.title("Feature Importance")
 plt.show()
 
+# Sample  wine data for testing - cut off
 sample = [[7.4,0.7,0,1.9,0.076,11,34,0.9978,3.51,0.56,9.4,0.3]]
 
 prediction = rf_model.predict(sample)
