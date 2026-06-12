@@ -13,42 +13,50 @@ The objective of this project is to analyze the wine quality dataset and develop
 + The dataset is used to build machine learning models to predict wine quality based on its features
  ### Tools and technologies
   The following tools and technologies were used for developing the Wine quality Prediction model:
+ 
+1.Google Colab is used as:
++ Cloud-based environment for running Python code
++ No need for local installation
++ Easy to share and run notebooks
+
+2.Python
++ Python is the core programming language used in this project
++ It provides strong support for data analysis,visualization,and machine learning
+
+3.Pandas
+Pandas is used for:
++ Loading the dataset
++ Cleaning and preprocessing data
++ Handling missing values and duplicates
++ Performing data manipulation
+
+4.NumPy
+NumPy is used for:
++ Performing numerical computations
+-+ Handling arrays and mathematical operations
+
+5.Matplotlib
+Matplotlib is used to:
++ Create basic visualizations
++ Plot graphs like charts and distributions
+
+6.Seaborn 
+Seaborn is used for:
++ Advanced and attractive visualizations
++ Creating count plots andheatmaps
+
+7.Scikit-learn
+Scikit-learn is used for building and evaluating models:
++ train_test_split
++ RandomForestClassifier
++ SVC(Support Vector Classifier)
++ SGD Classifier
++ Accuracy_score
+  
                                                 
-                                              1.Google colab is used as:
-                                              + Cloud-based environment for running Python code
-                                              + No need for local installation
-                                              + Easy to share and run notebooks
-                                              2.Python
-                                                + Python is the core programming language used in this project
-                                                + It provides strong support for data analysis,visualization and  machine learning
-                                              3.Pandas
-                                                Pandas is used for:
-                                                + Loading the dataset 
-                                                + Cleaning and preprocessing data
-                                                + handling missing values and duplicates
-                                                + Performing data manipulation
-                                              4. NumPy
-                                                NumPy is used for:
-                                                + Performing numerical computations
-                                                -+ Handling arrays and mathematical operations
-                                              5. Matplotlib
-                                                Matplotlib is used to:
-                                                 + Create basic visualizations
-                                                + Plot graphs like charts and distributions
-                                              6.Seaborn
-                                                seaborn is used for:
-                                                + Advanced and attractive visualizations
-                                                + Creating count plots and heatmaps
-                                                + Understanding relationships between features
-                                              7.Scikit-learn
-                                                scikit-learn is used for building and evaluating models:
-                                                + train_test_split
-                                                + RandomForestClassifier
-                                                + SVC(Support Vector Classifier)
-                                                + SGD Classifier
-                                                + accuracy_score
+                                             
 ### Steps in wine Quality Prediction
-    The following steps were carried out build the wine quality prediction model:
+    
 1.Import Libraries
  + Pandas -> data handling
  + NumPy -> numerical computations
