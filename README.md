@@ -62,37 +62,51 @@ Scikit-learn is used for building and evaluating models:
  + Pandas -> data handling
  + NumPy -> numerical computations
  + Seaborn&Matplotlib -> visualization
+
 2.Load dataset 
  + Loaded the dataset using 'pandas.read_csv()'
+
 3.Data Exploration
  + Checked missing values using 'df.isnull.sum()'
  + Checked duplicate rows and removed them if present
  + Viewed dataset information using 'df.info()'
+
 4. Data Visualization
  + Plotted wine quality distribution using countplot
  + Created correlation heatmap to analyze relationships between features
+
 5.Data Transformation
  + Converted wine quality into binary classification:
  + 1 -> Good Quality(quality>7)
  + 0 -> Bad/Average Quality (quality <7)
+
 6. Define Feature and Target
  + Features(X) -> all columns except 'quality'
  + Target (Y) -> 'quality' column
+
 7.Train-Test Split
  + Split data into Training (80%) and Testing (20%)
+
 8.Model Training
+
 Three machine learning models were trained:
+
 1. Random Forest Classifier-Ensemble model using multiple decision trees
+
 2. Support Vector Classifier (SVC)-Separates data using decision boundaries
+
 3. SGD Classifier -Efficient for large -Scale datasets
+
 9.Model Evaluation
  + Predicted results on test data
  + Calculated accuracy using'accuracy_score'
  + Stored accuracy of each model in a dictionary
  + Printed results to identify the best -performing model
+
 10. Feature Importance
  + Used Random Forest to determine which features are most important
  + Visualized feature importance using a bar chart
+
 11. Prediction on New Data
  + Provided a sample wine input
  + Used trained model to predict quality
