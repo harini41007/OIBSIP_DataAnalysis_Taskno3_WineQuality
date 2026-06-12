@@ -3,6 +3,7 @@
 ### Objective
 
 The objective of this project is to analyze the wine quality dataset and develop a machine learning model capable of predicting wine quality based on its chemical properties.The project aims to preprocess the data,explore key features such as acidity,density,and alcohol content,and convert the quality scores into binary classification problem(good or bad wine). Multiple machine learning algorithms, including Random Forest,Support Vector Classifier(SVC),and SGD Classifier,are applied and compared to identify the most accurate model. Overall,the goal is to build an efficient and reliable predictive model that can assist in assessing wine quality without manual evaluation
+
 ### Sample Dataset
 
 <img width="1318" height="448" alt="image" src="https://github.com/user-attachments/assets/6d7f7832-e2b7-4763-889e-c6621a00eaf8" />
